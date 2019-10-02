@@ -19,8 +19,9 @@ def main():
         abs_file_path = os.path.join(script_dir, rel_path)
         content = read_file(abs_file_path)
         
+        #create corresponding regex for each vans
         regex_dict = create_regex(sys.argv[3])
-        print(regex_dict)
+
         for van in regex_dict:
             regex = regex_dict[van]
             r = re.compile(regex)
