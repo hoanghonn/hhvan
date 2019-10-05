@@ -1,2 +1,2 @@
-# hhvan
-This Python script handles Vietnamese rhymes 🤙
+# Find similar rhymes in Vietnamese 
+Will update soon
